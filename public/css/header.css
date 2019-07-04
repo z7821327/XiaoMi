@@ -1,0 +1,169 @@
+.body{
+    margin:0;padding:0;
+    min-width: 1226px;
+}
+li{
+    list-style-type:none;
+}
+.site-topbar{
+    position:relative;
+    height:40px;
+    font-size:12px;
+    background:#333;
+}
+.container{
+    width:1226px;
+    margin:0 auto;
+}
+.header-login a:hover{
+    color:#FFF;
+}
+.site-topbar .topbar-nav{
+    float: left;
+    height:40px;
+    line-height:40px;
+}
+.sep{
+    margin:0.5em;
+    color:#424242;
+}
+.topbar-cart{
+    width:120px;
+    margin-left:15px;
+    position:relative;
+    float:right;
+    line-height: 40px;
+}
+.topbar-nav{
+    position: relative;
+}
+.topbar-nav span{
+    cursor: pointer;
+}
+.topbar-nav-span{
+    padding-bottom:45px;
+}
+.topbar-cart a:hover,
+.topbar-nav-span:hover{
+    color:#FF6700;
+}
+.topbar-cart>.cart-mini{
+    display:block;
+    height:40px;
+}
+.topbar-nav>a,
+.topbar-cart>a,
+.header-login>a{
+    text-decoration:none;
+    color:#b0b0b0;
+}
+.iconfont{
+    margin-right:4px;
+    font-size:20px;
+    vertical-align:-4px;
+}
+.header-login{
+    float: right;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.index{
+    width:1226px;
+    margin:0 auto;
+}
+.index .mdbar-nav{
+    margin:20px auto;
+    display:flex;
+}
+.mdbar-nav .topbar-nav{
+    list-style-type:none;
+    display: flex;
+    margin-left:130px;
+}
+.mdbar-nav li{
+    padding:0 10px;
+}
+.mdbar-nav a{
+    text-decoration:none;
+    color:#000;
+}
+.mdbar-nav .search{
+    position:relative;
+    margin:0 auto;
+    margin-right:20px;
+
+}
+.md-input{
+    float: left;
+    width:248px;
+    height:46px;
+    border:1px solid #e0e0e0;
+}
+.mdbar-nav .md-search{
+    display: inline-block;
+    width:50px;height:48px;
+    border:1px solid #e0e0e0;
+    background:url(../img/index/seek.png) no-repeat 50% 50%;
+}
+.md-search:hover{
+    background:#FF6700;
+    background:#FFF url(../img/index/seek1.png) no-repeat 50% 50%;
+}
+.w-100{
+    width:100%;
+}
+.fold{
+    border-top:1px solid #B0B0B0;
+   position:relative;
+   top:10px;
+}
+.fold_shophurdle{
+    height:88px;
+    margin:0 auto;
+}
+
+/* 隐藏栏 */
+.topbar-nav-li:hover .topbar-none{
+    display: block;
+    z-index: 9999;
+}
+.topbar-none{
+    position: absolute;
+    top:60px;
+    width:1430px;
+    left:-290px;
+    display: none;
+    background-color:#fff;
+    box-shadow:0 15px 30px rgba(0,0,0,0.1) 
+}
+.topbar-none>ul{
+    display: flex;
+    margin:0;padding:0;
+    height:230px;
+}
+.topbar-none-li{
+    margin-top:40px;
+    width:218px;
+    height:170px;
+    text-align: center;
+    font-size:12px;
+}
+.img-box img{
+    height:100px;
+}
+
+.topbar-none-p1{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.topbar-none-p2{
+    margin:0;
+    color:#FF6700;
+}
+.img-box{
+    width:218px;
+    border-right:1px solid #e0e0e0;
+}
+.img-box-border-none{
+    border-right:transparent;
+}

@@ -1,0 +1,360 @@
+
+*{margin:0;padding:0;}
+body{
+    margin:0;padding:0;
+    min-width: 1226px;
+}
+.my_footer{
+    width:100%;
+    height:31rem;
+}
+/************shop-header************/
+.shop-header{
+    width:1226px;height:100px;
+    margin:0 auto;
+    line-height: 100px;
+}
+.shop-header-logo{
+    width:48px;height:48px;
+  top:0;
+}
+.title{
+    display: inline-block;
+    margin-left:30px;
+    height:48px;
+    margin-top:26px;
+}
+.shop-header-title{
+    float: left;
+    font-size:28px;
+    font-weight: normal;
+    color:#424242;
+    line-height: 48px;
+}
+.shop-header-hint{
+    float: left;
+    color:#757575;
+    height:20px;
+    line-height: 20px;
+    font-size:12px;
+    margin-left:15px;
+    margin-top:20px;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    float: right;
+    font-size:12px;
+}
+.login>a{
+    color:#757575;
+}
+.login>span{
+    color:#E0E0E0;
+}
+.shop-middle{
+    border-bottom:2px solid #FF6700;
+}
+
+/**************** 购物车 ************************/
+.shopping-cart{
+    width:1226px;
+    margin:0 auto;
+    background:#FFF;
+}
+.shopping-background{
+    background:#f5f5f5;
+    padding:40px 0 50px 0;
+}
+.shop-basket-head{
+    height:70px;
+    line-height: 70px;
+    padding-right: 26px;
+    color:#424242;
+    font-size:14px;
+}
+.shop-option{
+    width:18px;height:18px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.shop-option-list{
+    margin-left:-28px;
+}
+.shop-check_all{
+    width:110px;
+    float: left;
+    text-align: center;
+}
+.shop-img{
+    width:120px;
+    float: left;
+}
+.shop-img>img{
+    width:80px;
+    vertical-align: middle;
+}
+.shop-title{
+    width:380px;
+    float: left;
+}
+.shop-price{
+    width:158px;
+    float: left;
+    text-align: center;
+}
+.shop-count{
+    width:150px;
+    float: left;
+    text-align: center;
+}
+.shop-count-border>div{
+    float: left;
+}
+.shop-count-border>input{
+    float: left;
+    width:72px;height:38px;
+    line-height: 38px;
+    padding:0;margin:0;
+    border-width:0;
+    font-size:16px;
+    color:#424242;
+    text-align: center;  
+}
+
+.shop-total{
+    width:201px;
+    float: left;
+    color:#ff6700;
+    text-align: center;
+}
+.shop-operate{
+    width:80px;
+    float: left;
+    text-align: center;
+}
+
+/************* 购物栏列表 ****************/
+.shop-column{
+    border-top:1px solid #e0e0e0;
+    padding-bottom:15px;
+}
+.shop-basket-list{
+    height:86px;
+    line-height: 86px;
+    vertical-align: middle;
+    padding:0;margin:0;
+}
+.shop-count-border{
+    border:1px solid #e0e0e0;
+    width:148px;height:38px;
+    line-height: 38px;
+    margin-top:24px;
+}
+.shop-count-border>a>div{
+    width:38px;
+    font-size:20px;
+    color:#757575;
+}
+.shop-count-border>a{
+    float: left;
+}
+.shop-count-border>a>div:hover{
+    background:#e0e0e0;
+}
+.shop-count-p{
+    height:18px;
+    line-height: 18px;
+    font-size:12px;
+    color:#B0B0B0;
+}
+.shop-operate-x{
+    width:24px;height:24px;
+    line-height: 24px;
+    float: left;
+    color:#757575;
+    font-size:16px;
+    border-radius: 12px;
+    margin:30px 30px;
+}
+.shop-operate-x:hover{
+    background:#757575;
+    color:#fff;
+}
+/*********保障*************/
+.accident-safe{
+    height:48px;
+    line-height: 48px; 
+    border:1px solid #e0e0e0;
+    padding-left:20px;
+    margin-left:110px;
+    margin-right:30px;
+    margin-bottom:-1px;
+    color:#424242;
+}
+.accident-card{
+    margin-top:15px;
+}
+.accident-div{
+    font-weight: bold;
+    font-size:22px;
+    width:22px;height:22px;
+    line-height:22px;
+    background:#FF6700;
+    color:#FFF;
+    border-radius: 11px;
+    text-align: center;
+    float: left;
+    margin-top:12px; 
+    margin-right:15px;
+}
+.accident-a{
+    font-size:14px;
+}
+.accident-title{
+    color:#424242;
+}
+.accident-know{
+    color:#FF6700;
+    margin-left: 25px;
+
+}
+/******** 结算 ***********/
+.settle-accounts{
+    background:#FFF;
+    width:1226px;height:50px;
+    margin:15px auto;
+    line-height: 50px;
+}
+.go-on-shop{
+    font-size:14px;
+    color:#757575;
+    margin:0 30px
+}
+.buy-count,
+.buy-count1{
+    font-size:14px;
+    color:#757575;
+    border-left:1px solid #e0e0e0;
+    padding-left:30px;
+}
+.settle-accounts-right{
+    float: right;
+}
+.settle-accounts-right1{
+    float: left;
+    font-size:14px;
+    color:#FF6700;
+}
+.settle-accounts-right2{
+    font-size:30px;
+    color:#FF6700;
+}
+.settle-accounts-righta{
+    float: left;
+    margin-left:50px;
+}
+.settle-accounts-rightb{
+    width:200px;height:48px;
+    background:#FF6700;
+    color:#FFF;
+    text-align: center;
+    font-size:18px;
+}
+/************** 买购物车的人还购买了 ****************/
+.xm-recommend-title{
+    position: relative;
+    width:1226px;
+    border-top:1px solid #e0e0e0;
+    text-align: center;
+    margin:60px auto;
+    font-size:30px;
+    color:#757575;
+}
+.xm-recommend-title>span{
+    position: absolute;
+    top:-20px;
+    left:372px;
+    width:482px;
+    height:40px;
+    text-align:40px;
+    text-align: center;
+    display: block;
+    background:#f5f5f5;
+}
+.clearfix{
+    width:1226px;
+    margin:0 auto;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.clearfix-commodity{
+    float: left;
+    background:#FFF;
+    width:234px;height:280px;
+    text-align: center;
+    padding-bottom:20px;
+    margin-bottom:14px;
+}
+.clearfix-commodity:nth-child(2),
+.clearfix-commodity:nth-child(3),
+.clearfix-commodity:nth-child(4),
+.clearfix-commodity:nth-child(5),
+.clearfix-commodity:nth-child(7),
+.clearfix-commodity:nth-child(8),
+.clearfix-commodity:nth-child(9),
+.clearfix-commodity:nth-child(10){
+    margin-left:14px;
+}
+.clearfix-img{
+    width:110px;
+    margin-top:45px;
+}
+.clearfix-title{
+    font-size:14px;
+    color:#333333;
+    margin-top:25px;
+}
+.clearfix-price{
+    display: block;
+    color:#FF6700;
+    font-size:14px;
+    margin-top:10px;
+}
+.clearfix-goodrep-a{
+    position: relative;
+    display: block;
+    margin-top:10px;
+    color:#757575;
+}
+.clearfix-goodrep{
+    font-size:16px;
+    width:130px;height:40px;
+    margin: 0 auto;
+    line-height: 40px;
+    border-radius: 2px;
+}
+.clearfix-goodrep-count{
+    background:#FFF;
+    position: absolute;
+    top:10px;
+    left:73px;
+    border-radius: 2px;
+}
+.clearfix-commodity:hover .clearfix-goodrep-count{
+    display: none;
+}
+.clearfix-commodity:hover .clearfix-goodrep{
+    border:1px solid #FF6700;
+}
+
+.clearfix-goodrep:hover{
+    display: block;
+    content:"加入购物车";
+    color:#FFF;
+    background:#FF6700;
+}

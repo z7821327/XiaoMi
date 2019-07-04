@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米账号-登录</title>
+    <link rel="icon" href="img/index/logo.png"/>
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+    <div clsaa="login">
+        <!--logo图标-->
+        <div class="header">
+            <a href="index.html">
+                <img src="img/login/mistore_logo.png" alt="">
+            </a>
+        </div>
+        <!--中间背景图-->
+        <div class="login-background">
+            <a href="#">
+                <img class="background-image" src="img/login/f838fdcd77715410b441f2f56d8f10cd.jpg" alt="">
+            </a>
+            <!--登录窗口-->
+            <div class="background-login">
+                <div class="background-login-1">
+                    <a class="background-login-a cut-users-login active" href="#"><span>账号登录</span></a>
+                    <a class="background-login-a cut-scancode-login" href="#"><span>扫码登录</span></a>
+                </div>
+
+                <!--切换扫码登录方式--->
+                <div class="cut-scancode">
+                <!--帐号登录方式--->    
+                    <div class="login-border user-login">
+                        <div class="login-input">
+                            <div>
+                                <input class="login-uname" name="uname" type="text" placeholder="邮箱/手机号码/小米ID">
+                                <input class="login-upwd" name="upwd" type="password" placeholder="密码">
+                            </div>
+                            <div class="login-v">
+                                <input class="login-verity" type="text" placeholder="图片验证码">
+                                <canvas id="canvas"></canvas>
+                                <div class="none verify fail">
+                                    <img src="img/login/exclamation_point.png" alt="">&nbsp;
+                                    <span class="mistake">验证码不正确</span>    
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn" >登录</button>
+                        <div class="phone-register">
+                            <span class="phone-register-left cut-phone-login" >
+                                <a href="#">手机短信登录/注册</a>
+                            </span>
+                            <div class="phone-register-right">
+                                <span><a href="reg.html" target="_blank">立即注册</a></span>
+                                <span>|</span>
+                                <span><a href="#">忘记密码?</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--手机短信登录方式-->
+                    <div class="login-border none phone-login">
+                        <div class="phone-input">
+                            <span class="area-code">+86</span>
+                            <input class="login-phone" name="phone" type="text" placeholder="手机号码"><br>
+                            <input class="login-code" name="note_code" type="text" placeholder="短信验证码">
+                            <span class="get-code">获取验证码</span>
+                        </div>   
+                        <div class="none phone-verify fail">
+                            <img src="img/login/exclamation_point.png" alt="">&nbsp;
+                            <span class="phone-mistake">验证码不正确</span>   
+                        </div>                         
+                        <button class="phone_btn">立即登录/注册</button>  
+                        <div class="phone-register">
+                            <span class="phone-register-left cut-user-login" >
+                                <a href="#">用户名密码登录</a>
+                            </span>
+                        </div>                                          
+                    </div>
+
+                    <!--其它登录方式-->
+                    <div class="other-button-box">
+                        <fieldset class="other">
+                            <legend class="other-button">其它方式登录</legend>
+                        </fieldset>                
+                        <div class="other-img">
+                            <a clss="login-other-a" href="#"><img class="login-other-img" src="img/login/QQ .png" alt=""></a>
+                            <a clss="login-other-a" href="#"><img class="login-other-img" src="img/login/weibo.png" alt=""></a>
+                            <a clss="login-other-a" href="#"><img class="login-other-img" src="img/login/zhifubao.png" alt=""></a>
+                            <a clss="login-other-a" href="#"><img class="login-other-img" src="img/login/weixin.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!--扫码登录 -->
+                <div class="scancode-login none">
+                    <img src="img/login/sancode.png" alt="">
+                    <div class="scancode-div">
+                        <p>使用 <span>小米商城APP</span> 扫一扫</p>
+                        <p>小米手机可打开「设置」>「小米帐号」扫码登录</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--底部-->
+        <div class="footer">
+            <div class="footer-one">
+                <span class="footer-one-span">简体</span>
+                <span class="footer-one-span">繁体</span>
+                <span class="footer-one-span">English</span>
+                <span class="footer-one-span">常见问题</span>
+                <span class="footer-one-span">隐私政策</span>
+            </div>
+            <div class="footer-two">
+                <span>小米公司版权所有-京ICP备10046444-</span>
+                <a href="#">
+                    <img src="img/login/ghs.png" alt="">京公网安备11010802020134号
+                </a>
+                <span>-京ICP证110507号</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

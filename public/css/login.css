@@ -1,0 +1,254 @@
+*{margin:0;padding:0;}
+body{
+    margin:0;padding:0;
+    min-width: 1226px;
+}
+.login{position: relative;}
+.header{
+   width:1130px;
+   margin:0 auto;
+   display: block;
+}
+a{
+    text-decoration: none;
+}
+
+/********** 中间背景图 **********/
+.login-background{
+    width:100%;
+    height:588px;
+    position: relative;
+    text-indent:0px; 
+    left:0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.background-image{
+    height:588px;   
+    transform:translateX(-20rem);
+}
+/************ 登录窗口 *****************/
+.background-login{
+    position: absolute;
+    right:390px;bottom:0px;
+    width:410px;height:558px;
+    background:#fff;
+}
+.background-login-1{
+    display: block;
+    width:100%;
+    left:0px;
+    font-size:24px;
+    text-align: center;
+    font-weight:bold;
+    padding:27px 0;
+}
+
+.background-login-a{
+    color:#666666;
+}
+.background-login-a:hover{
+    color:#FF6700;
+}
+.active{
+    color:#FF6700;
+}
+.background-login-a+.background-login-a::before{
+    content:"|";
+    margin:0 42px 0 35px;
+    font-weight: lighter;
+    color:#e0e0e0;
+}
+.login-border{
+    display: block;
+    width:348px;
+    margin:0 auto;
+}
+.login-input{
+    margin-bottom:30px;
+}
+.login-uname,
+.login-upwd,
+.login-phone,
+.login-code{
+    height:22px;
+    line-height:22px;
+    display: inline-block;
+    padding:13px 16px 13px 22px;
+    margin:15px 0;
+    border:1px solid #e0e0e0;
+    flex-grow:1;
+}
+.login-uname{
+    width:306px;
+}
+.login-upwd{
+    width:306px;
+}
+
+.area-code{
+    width:50px;
+}
+.get-code{
+    width:111px;
+    margin-left:-6px;
+    cursor: pointer;
+}
+.area-code,
+.get-code{
+    height:48px;
+    border:1px solid #e0e0e0;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    font-size:14px;
+}
+.login-phone{
+    width:255px;
+    margin-left:-6px;
+}
+.login-code{
+    width:195px;
+}
+/* 登录验证input样式 */
+.login-verity{
+    width:170px;
+    height:22px;
+    line-height:22px;
+    display: inline-block;
+    padding:13px 16px 13px 22px;
+    border:1px solid #e0e0e0;
+    flex-grow:1;
+}
+#canvas{
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 0;
+    cursor: pointer;
+    width:120px;
+    height:50px;
+    padding:5px 0;
+}
+.fail{
+    width:306px;
+    height:22px;
+    font-size:14px;
+    line-height: 22px;
+    color:#FF6700;
+    margin:15px 0;
+}
+.phone-verify{
+    margin-top:0px;
+    display: block;
+}
+.none{
+    display:none;
+}
+.block{
+    display: block;
+}
+
+.fail>img{
+    margin-top:-3px;
+    vertical-align: middle;
+}
+.phone_btn,
+.btn{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background:#FF6700;
+    font-size:14px;
+    color:#fff;
+    border:0;  
+    cursor: pointer; 
+}
+.btn{
+    margin-top:-13px;
+}
+.login-other-img{
+    width:30px;
+}
+.login-other-a{
+    width:30px;height:30px;
+}
+.phone-register{
+   margin-top:5px;
+   font-size: 14px;
+   height:49px;
+   color:#999999;
+}
+.phone-register a:hover{
+    color:#FF6700;
+}
+.phone-register-left{
+    float: left;
+}
+.phone-register-left>a{
+    color: #FF6700;
+}
+.phone-register-right{
+    float: right;
+    
+}
+.phone-register-right>span>a{
+    color:#999999;
+}
+.other-button-box{
+    position: absolute;
+    width:348px;
+    margin:0 31px;
+    bottom:30px;
+}
+.other{
+    color:#bbb;
+    border-top:1px solid #e0e0e0 !important;
+    border:transparent;
+    padding-top:10px;
+}
+.other-button{
+   margin:0 auto;
+   font-size:14px;
+}
+.other-img{
+    text-align: center;
+}
+.other-img img{
+    margin:0 10px;
+}
+.login-background::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+
+/*扫码登录样式*/
+.scancode-login{
+    text-align: center;
+    margin-top:85px;
+    color:#757575;
+    font-size:14px;
+}
+.scancode-div{
+    padding-top:10px;
+}
+.scancode-div span{
+    color:#FF6700;
+}
+/************底部*************/
+.footer{
+    margin-top:0;
+    padding-top:100px;
+    text-align: center;
+    font-size:14px;
+    color:#757575;
+}
+.footer-one{
+    margin-bottom:10px;
+}
+.footer-one-span+.footer-one-span::before{
+    content:"|";
+    margin:0 10px;
+}
